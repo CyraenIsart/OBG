@@ -342,25 +342,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Enabled
-    path: Body (Full)/Retractable/Front Legs
-    classID: 65
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
         value: 0.5
         inSlope: 0
         outSlope: 0
@@ -391,28 +372,9 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Body (Full)/Retractable/Back Legs
-    classID: 65
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Enabled
     path: Body (Full)/Retractable
-    classID: 114
-    script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+    classID: 136
+    script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -422,25 +384,11 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 4246287422
-      attribute: 3305885265
-      script: {fileID: 0}
-      typeID: 65
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 4009837164
-      attribute: 3305885265
-      script: {fileID: 0}
-      typeID: 65
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
       path: 1239833552
       attribute: 3305885265
-      script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-      typeID: 114
-      customType: 24
+      script: {fileID: 0}
+      typeID: 136
+      customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 4015506326
@@ -1186,25 +1134,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Enabled
-    path: Body (Full)/Retractable/Front Legs
-    classID: 65
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
         value: 0.00729
         inSlope: 0
         outSlope: 0
@@ -1805,28 +1734,9 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Body (Full)/Retractable/Back Legs
-    classID: 65
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Enabled
     path: Body (Full)/Retractable
-    classID: 114
-    script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+    classID: 136
+    script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:
       serializedVersion: 2

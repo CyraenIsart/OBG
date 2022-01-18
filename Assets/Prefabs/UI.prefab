@@ -378,7 +378,7 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -532,7 +532,7 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1045,7 +1045,7 @@ GameObject:
   - component: {fileID: 5328621461462465078}
   - component: {fileID: 5328621461462465033}
   m_Layer: 5
-  m_Name: ToMainMenuButton
+  m_Name: To Level Selector Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1175,7 +1175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"SceneName","value":{"$content":"MainMenu","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"SceneName","value":{"$content":"Level
+      Selector","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &5328621461462465078
 MonoBehaviour:
@@ -1432,7 +1433,7 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1844,7 +1845,7 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1964,7 +1965,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: To Main Menu
+  m_Text: To Level Selection
 --- !u!1 &5328621462578644610
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,7 +2191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"SceneName","value":{"$content":"TestingScene","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"SceneName","value":{"$content":"LevelOne","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &5328621462628743563
 MonoBehaviour:
@@ -2447,7 +2448,6 @@ GameObject:
   - component: {fileID: 5251920307408880936}
   - component: {fileID: 6193623331017691056}
   - component: {fileID: 7625420608297900723}
-  - component: {fileID: 2906583467484763382}
   m_Layer: 5
   m_Name: TimerUI
   m_TagString: Untagged
@@ -2526,23 +2526,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"PauseUI","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerRef","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 5328621461168881930}
-    - {fileID: 0}
---- !u!114 &2906583467484763382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9022272658265091233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 08d40dc57f77fd54a96cb2613237932f, type: 2}
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
