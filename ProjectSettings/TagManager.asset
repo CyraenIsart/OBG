@@ -7,6 +7,8 @@ TagManager:
   - Terrain
   - DataTerminalExit
   - DataTerminalWall
+  - GrappleSurface
+  - Grapple
   layers:
   - Default
   - TransparentFX
