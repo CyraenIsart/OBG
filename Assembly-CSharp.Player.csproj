@@ -55,6 +55,9 @@
   <ItemGroup>
     <Compile Include="Assets\Imported Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
     <Compile Include="Assets\Imported Assets\Sci-Fi UI\Demo_Assets\scripts\GUI_Demo.cs" />
+    <Compile Include="Assets\Macros\BitwiseOperator.cs" />
+    <Compile Include="Assets\Imported Assets\Alkoryn Studios\Free Vehicles Pack\Demo\First Person\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Imported Assets\Alkoryn Studios\Free Vehicles Pack\Demo\First Person\Scripts\CameraLook.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
