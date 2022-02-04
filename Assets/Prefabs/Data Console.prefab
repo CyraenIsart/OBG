@@ -902,7 +902,7 @@ GameObject:
   - component: {fileID: 5122998840358231453}
   m_Layer: 0
   m_Name: Data Console
-  m_TagString: Terrain
+  m_TagString: GrappleSurface
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -982,7 +982,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.2, z: 0.89}
+  m_Size: {x: 1, y: 2, z: 2}
   m_Center: {x: 1, y: -0.2, z: 0}
 --- !u!1001 &83116670540566566
 PrefabInstance:

@@ -9,6 +9,7 @@ TagManager:
   - DataTerminalWall
   - GrappleSurface
   - Grapple
+  - Physics
   layers:
   - Default
   - TransparentFX
