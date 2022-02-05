@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Killzone_Macro
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":449.4073,"y":-50.54481},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":12.0,"y":-68.0},"guid":"c994cb3d-48fa-4b64-9cce-1226780de83a","$version":"A","$type":"Bolt.OnCollisionEnter","$id":"9"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Respawn","$type":"System.String"},"target":null},"position":{"x":424.0,"y":-49.0},"guid":"26767da9-f976-46d8-b687-38178c1c34fe","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"36c6ea3b-a09e-4202-999d-ed1e222d0e84","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"collider","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"885895dd-a49e-41ba-ae95-454e16eedbe0","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SavedVariables
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"AssistRayOption","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"BatteryOption","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerLevel","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"UnlockedLevels","value":{"$content":[1],"$type":"System.Collections.Generic.List`1[[System.Int32,
+    _json: '{"declarations":{"collection":{"$content":[{"name":"AssistRayOption","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"BatteryOption","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"CompassOption","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerLevel","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"UnlockedLevels","value":{"$content":[1],"$type":"System.Collections.Generic.List`1[[System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"PlayerTimerHours","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"PlayerTimerMinutes","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"PlayerTimerSeconds","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
